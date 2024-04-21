@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an e-commerce project for making mahbub express">
+    <title>E-commerce Project</title>
+    <!--Font Awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navigation Menu start-->
+   
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="upper-nav flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Logout</a>
+            </li>
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile-icon" src="image/ba1.jpg" alt="Mahbub-Profile-icon">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="lower-nav flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link nav__brand">Mahbub Express</a>
+            </li>
+
+            
+            <li class="nav__list">
+                <a href="cart.html" class="nav__link nav__brand">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 2 Products - $150.50
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <!--Navigation Menu end-->
+
+        <!--main satrt-->
+        <main class="flex-center">
+            <div class="main-content">
+                <section class="product-details flex-center">
+                    <div class="product__details-left flex-center">
+                        <img class="product__details-img" src="image/ba1.jpg" alt="product1">
+
+                    </div>
+
+                    <div class="product__details-right">
+                        <h3 class="products__name">
+                            Samsung Mouse
+                        </h3>
+                        <p>
+                             <span class="dot red"></span>
+                             <span class="dot blue"></span>
+                             <span class="dot black"></span>
+                        </p>
+
+                        <p class="product__description">
+                            <strong>Description:</strong> <br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nihil, quaerat fugiat fuga explicabo ex eius laudantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quis odit provident ullam cupiditate perferendis sed magni impedit illo distinctio nihil architecto, laborum debitis eius possimus deserunt ipsum voluptatibus dolorum.
+                        </p>
+                        <p class="product__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis rerum expedita, quam asperiores molestiae qui! Quibusdam, iusto dolore omnis ullam dignissimos quas voluptatum, tempora eveniet dolor accusamus sequi soluta.
+                        </p>
+
+                        <h4 class="product__category"> Category: Computer Accessories</h4>
+                        <h4 class="product__price">Price: $100.24</h4>
+                        <p class="product__rating">Rating: 4.8/5</p>
+                        <button class="btn product__button">Add to cart</button>
+                        <button class="btn product__button product__button-details ">
+                            <a class="product-btn-details-link" href="index.html">Back to Shopping</a></button>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+        <!--main end-->
+
+
+    <!--Footer start-->
+    <footer class="flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe"> Subscribe To Newslatter:</label>
+            <input class="footer__input" type="email" id="subscribe" name="subscribe" placeholder="Your Email Address">
+            <button class="btn footer-btn">Subscribe</button>
+        </div>
+
+        <div>
+            <p>&copy; Copyright 2024 Mahbub Express. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!--Footer end-->
+    <script src="script.js"></script>
+</body>
+</html>
